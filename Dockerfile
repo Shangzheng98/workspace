@@ -196,15 +196,15 @@ ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 # 
 # setup entrypoint
 #
-COPY ./packages/ros_entrypoint.sh /ros_entrypoint.sh
+# COPY /packages/ros_entrypoint.sh /ros_entrypoint.sh
 
-RUN sed -i \
-    's/ros_env_setup="\/opt\/ros\/$ROS_DISTRO\/setup.bash"/ros_env_setup="${ROS_ROOT}\/install\/setup.bash"/g' \
-    /ros_entrypoint.sh && \
-    cat /ros_entrypoint.sh
+# RUN sed -i \
+#     's/ros_env_setup="\/opt\/ros\/$ROS_DISTRO\/setup.bash"/ros_env_setup="${ROS_ROOT}\/install\/setup.bash"/g' \
+#     /ros_entrypoint.sh && \
+#     cat /ros_entrypoint.sh
 
 RUN echo 'source ${ROS_ROOT}/install/setup.bash' >> /root/.bashrc
 
-ENTRYPOINT ["/ros_entrypoint.sh"]
+# ENTRYPOINT ["/ros_entrypoint.sh"]
 CMD ["bash"]
 WORKDIR /
