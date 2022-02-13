@@ -3,6 +3,6 @@
 int main()
 {
     std::cout << cv::getBuildInformation() << std::endl;
-
+    return 0;
     
 }
