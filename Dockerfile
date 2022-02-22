@@ -163,10 +163,10 @@ RUN mkdir -p ${ROS_ROOT}/src && \
 	  --rosdistro ${ROS_DISTRO} \
 	  --skip-keys "libopencv-dev libopencv-contrib-dev libopencv-imgproc-dev python-opencv python3-opencv" && \
     rm -rf /var/lib/apt/lists/* && \
-    apt-get clean && \
+    apt-get clean
     # build it!
-    colcon build --merge-install && \
-    # remove build files
+RUN colcon build --merge-install && \
+    # remove build filessS
     rm -rf ${ROS_ROOT}/src && \
     rm -rf ${ROS_ROOT}/logs && \
     rm -rf ${ROS_ROOT}/build && \
