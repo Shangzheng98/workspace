@@ -1,0 +1,55 @@
+[0.140s] Invoking command in '/workspaces/workspace/build/cpp_pubsub': /usr/bin/cmake --build /workspaces/workspace/build/cpp_pubsub -- -j4 -l4
+[0.548s] -- The C compiler identification is GNU 7.5.0
+[0.815s] -- The CXX compiler identification is GNU 7.5.0
+[0.847s] -- Detecting C compiler ABI info
+[0.998s] -- Detecting C compiler ABI info - done
+[1.025s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.028s] -- Detecting C compile features
+[1.030s] -- Detecting C compile features - done
+[1.043s] -- Detecting CXX compiler ABI info
+[1.232s] -- Detecting CXX compiler ABI info - done
+[1.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.259s] -- Detecting CXX compile features
+[1.260s] -- Detecting CXX compile features - done
+[1.278s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[1.367s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.369s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.290s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/install/share/rclcpp/cmake)
+[2.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.513s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[2.636s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[2.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.209s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[3.215s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.981s] -- Configuring done
+[4.023s] -- Generating done
+[4.030s] -- Build files have been written to: /workspaces/workspace/build/cpp_pubsub
+[4.095s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.095s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[15.108s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[15.801s] [ 75%] Built target talker
+[22.292s] [100%] [32m[1mLinking CXX executable listener[0m
+[23.165s] [100%] Built target listener
+[23.182s] Invoked command in '/workspaces/workspace/build/cpp_pubsub' returned '0': /usr/bin/cmake --build /workspaces/workspace/build/cpp_pubsub -- -j4 -l4
+[23.280s] Invoking command in '/workspaces/workspace/build/cpp_pubsub': /usr/bin/cmake --install /workspaces/workspace/build/cpp_pubsub
+[23.297s] -- Install configuration: ""
+[23.300s] -- Installing: /workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+[23.305s] -- Set runtime path of "/workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[23.308s] -- Installing: /workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener
+[23.322s] -- Set runtime path of "/workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[23.323s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[23.324s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[23.325s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[23.327s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[23.328s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[23.329s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[23.330s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[23.333s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[23.334s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[23.335s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[23.335s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[23.336s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[23.336s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[23.337s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[23.337s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[23.338s] Invoked command in '/workspaces/workspace/build/cpp_pubsub' returned '0': /usr/bin/cmake --install /workspaces/workspace/build/cpp_pubsub

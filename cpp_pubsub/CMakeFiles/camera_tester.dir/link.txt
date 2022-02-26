@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/camera_tester.dir/src/camera.cpp.o -o camera_tester   -L/workspaces/workspace/MVS/lib/aarch64  -Wl,-rpath,/workspaces/workspace/MVS/lib/aarch64 /workspaces/workspace/MVS/lib/aarch64/libMvCameraControl.so -lpthread -luuid -lMvCameraControl -lMvCameraControl 

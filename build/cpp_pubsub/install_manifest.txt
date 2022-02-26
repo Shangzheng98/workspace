@@ -1,0 +1,17 @@
+/workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+/workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener
+/workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+/workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+/workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+/workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml

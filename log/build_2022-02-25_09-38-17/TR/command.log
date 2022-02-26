@@ -1,0 +1,4 @@
+Invoking command in '/workspaces/workspace/build/TR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/workspace/build/TR -- -j4 -l4
+Invoked command in '/workspaces/workspace/build/TR' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/workspace/build/TR -- -j4 -l4
+Invoking command in '/workspaces/workspace/build/TR': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/workspace/build/TR
+Invoked command in '/workspaces/workspace/build/TR' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/workspace/build/TR
