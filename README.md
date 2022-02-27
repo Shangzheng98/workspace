@@ -14,3 +14,10 @@ Windows 10/11
 
 Jetson Xavier NX/TX2
 
+
+
+Run with:
+
+
+sudo docker run -it --privileged --net=host --ipc=host -e DISPLAY=$DISPLAY -v /home/nvidia/workspace/:/workspaces/workspace  -v /tmp/.X11-unix:/tmp/.X11-unix   <
+image name>
