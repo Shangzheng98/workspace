@@ -7,7 +7,7 @@ FROM ${BASE_IMAGE}
 
 ARG ROS_PKG=ros_base
 ENV ROS_DISTRO=foxy
-ENV ROS_ROOT=/opt/ros/${ROS_DISTRO}
+ENV ROS_ROOT=/tmp/ros/${ROS_DISTRO}
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV SHELL /bin/bash
@@ -206,5 +206,18 @@ ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 RUN echo 'source ${ROS_ROOT}/install/setup.bash' >> /root/.bashrc
 
 # ENTRYPOINT ["/ros_entrypoint.sh"]
+# RUN . /opt/ros/$ROS_DISTRO/setup.sh \
+# &&  . install/local_setup.sh \
+# &&  apt update \
+# &&  ros2 run micro_ros_setup create_agent_ws.sh \
+# &&  ros2 run micro_ros_setup build_agent.sh \
+# &&  rm -rf log/ build/ src/
+
+# # Disable shared memory
+# COPY /dockerfile_dep/disable_fastdds_shm.xml /dockerfile_dep/disable_fastdds_shm_localhost_only.xml /tmp/
+
+# # setup entrypoint
+# COPY /dockerfile_dep/micro-ros_entrypoint.sh /
+# ENTRYPOINT ["/bin/sh", "/micro-ros_entrypoint.sh"]
 CMD ["bash"]
 WORKDIR /
