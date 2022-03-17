@@ -1,0 +1,39 @@
+[0.077s] Invoking command in '/workspaces/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/workspace/build/cpp_pubsub -- -j4 -l4
+[0.179s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.255s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.934s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.057s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.782s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.787s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.560s] -- Configuring done
+[2.591s] -- Generating done
+[2.596s] -- Build files have been written to: /workspaces/workspace/build/cpp_pubsub
+[2.677s] [35m[1mScanning dependencies of target listener[0m
+[2.750s] [ 50%] Built target talker
+[2.801s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[20.803s] [100%] [32m[1mLinking CXX executable listener[0m
+[21.689s] [100%] Built target listener
+[21.725s] Invoked command in '/workspaces/workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /workspaces/workspace/build/cpp_pubsub -- -j4 -l4
+[21.849s] Invoking command in '/workspaces/workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/workspace/build/cpp_pubsub
+[21.879s] -- Install configuration: ""
+[21.880s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+[21.883s] -- Installing: /workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener
+[21.894s] -- Set runtime path of "/workspaces/workspace/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[21.895s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[21.895s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[21.896s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[21.896s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[21.897s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[21.898s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[21.898s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[21.899s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[21.899s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[21.900s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[21.900s] -- Installing: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[21.901s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[21.901s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[21.906s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[21.910s] -- Up-to-date: /workspaces/workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[21.911s] Invoked command in '/workspaces/workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /workspaces/workspace/build/cpp_pubsub

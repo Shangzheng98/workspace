@@ -1,3 +1,6 @@
+
+FROM  dustynv/ros:foxy-ros-base-l4t-r32.6.1
+=======
 #
 # this dockerfile roughly follows the 'Install ROS From Source' procedures from:
 #   https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Development-Setup/
@@ -221,3 +224,4 @@ RUN echo 'source ${ROS_ROOT}/install/setup.bash' >> /root/.bashrc
 # ENTRYPOINT ["/bin/sh", "/micro-ros_entrypoint.sh"]
 CMD ["bash"]
 WORKDIR /
+

@@ -1,0 +1,3 @@
+/workspaces/workspace/cpp_pubsub/CMakeFiles/camera_tester.dir
+/workspaces/workspace/cpp_pubsub/CMakeFiles/edit_cache.dir
+/workspaces/workspace/cpp_pubsub/CMakeFiles/rebuild_cache.dir

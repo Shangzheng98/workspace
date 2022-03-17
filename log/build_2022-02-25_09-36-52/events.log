@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001057] (TR) JobQueued: {'identifier': 'TR', 'dependencies': OrderedDict()}
+[0.002378] (TR) JobStarted: {'identifier': 'TR'}
+[0.048318] (TR) JobProgress: {'identifier': 'TR', 'progress': 'cmake'}
+[0.049313] (TR) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/workspace/TR', '-DCMAKE_INSTALL_PREFIX=/workspaces/workspace/install/TR'], 'cwd': '/workspaces/workspace/build/TR', 'env': OrderedDict([('HOSTNAME', 'a5b854156748'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/workspace/TR'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f50fb3c2-7600-4d43-bcec-2fb93225db72.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2c212c838b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/workspace/build/TR'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099177] (-) TimerEvent: {}
+[0.199963] (-) TimerEvent: {}
+[0.300715] (-) TimerEvent: {}
+[0.401932] (-) TimerEvent: {}
+[0.502693] (-) TimerEvent: {}
+[0.522093] (TR) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.602945] (-) TimerEvent: {}
+[0.703675] (-) TimerEvent: {}
+[0.804847] (-) TimerEvent: {}
+[0.813692] (TR) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.839342] (TR) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.905018] (-) TimerEvent: {}
+[1.005691] (-) TimerEvent: {}
+[1.069663] (TR) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.074701] (TR) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.105866] (-) TimerEvent: {}
+[1.206516] (-) TimerEvent: {}
+[1.296303] (TR) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.306651] (-) TimerEvent: {}
+[1.334989] (TR) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.336373] (TR) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.348155] (TR) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.406846] (-) TimerEvent: {}
+[1.507491] (-) TimerEvent: {}
+[1.600741] (TR) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.603940] (TR) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.607603] (-) TimerEvent: {}
+[1.708549] (-) TimerEvent: {}
+[1.809302] (-) TimerEvent: {}
+[1.861747] (TR) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.897044] (TR) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.898511] (TR) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.909491] (-) TimerEvent: {}
+[1.914123] (TR) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.009653] (-) TimerEvent: {}
+[2.020495] (TR) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.021367] (TR) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.109793] (-) TimerEvent: {}
+[2.210422] (-) TimerEvent: {}
+[2.311077] (-) TimerEvent: {}
+[2.411682] (-) TimerEvent: {}
+[2.512296] (-) TimerEvent: {}
+[2.612947] (-) TimerEvent: {}
+[2.713640] (-) TimerEvent: {}
+[2.782346] (TR) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.813786] (-) TimerEvent: {}
+[2.914424] (-) TimerEvent: {}
+[2.960824] (TR) StderrLine: {'line': b'WARNING: Package name "TR" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[3.014602] (-) TimerEvent: {}
+[3.104772] (TR) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.108798] (TR) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.109487] (TR) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.109871] (TR) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.113160] (TR) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.113852] (TR) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.114722] (-) TimerEvent: {}
+[3.117556] (TR) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.123668] (TR) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.124356] (TR) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.126726] (TR) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.137374] (TR) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.144436] (TR) StdoutLine: {'line': b'-- Generating done\n'}
+[3.147486] (TR) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/workspace/build/TR\n'}
+[3.158459] (TR) CommandEnded: {'returncode': 0}
+[3.160178] (TR) JobProgress: {'identifier': 'TR', 'progress': 'build'}
+[3.162558] (TR) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/workspace/build/TR', '--', '-j4', '-l4'], 'cwd': '/workspaces/workspace/build/TR', 'env': OrderedDict([('HOSTNAME', 'a5b854156748'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/workspace/TR'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f50fb3c2-7600-4d43-bcec-2fb93225db72.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2c212c838b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/workspace/build/TR'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.214967] (-) TimerEvent: {}
+[3.307330] (TR) CommandEnded: {'returncode': 0}
+[3.315253] (-) TimerEvent: {}
+[3.391266] (TR) JobProgress: {'identifier': 'TR', 'progress': 'install'}
+[3.415521] (-) TimerEvent: {}
+[3.430657] (TR) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/workspace/build/TR'], 'cwd': '/workspaces/workspace/build/TR', 'env': OrderedDict([('HOSTNAME', 'a5b854156748'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspaces/workspace/TR'), ('TERM_PROGRAM_VERSION', '1.64.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f50fb3c2-7600-4d43-bcec-2fb93225db72.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/f80445acd5a3dadef24aa209168452a3d97cc326/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock","/root/.gnupg/S.gpg-agent"]'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-2c212c838b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-257f059b4d036f2bcab1b1f14018cb8439c6c7a1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/workspace/build/TR'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.467405] (TR) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.468670] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/ament_index/resource_index/package_run_dependencies/TR\n'}
+[3.469424] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/ament_index/resource_index/parent_prefix_path/TR\n'}
+[3.470306] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/environment/ament_prefix_path.sh\n'}
+[3.471181] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/environment/ament_prefix_path.dsv\n'}
+[3.472008] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/environment/path.sh\n'}
+[3.472655] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/environment/path.dsv\n'}
+[3.473426] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/local_setup.bash\n'}
+[3.480642] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/local_setup.sh\n'}
+[3.481468] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/local_setup.zsh\n'}
+[3.484770] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/local_setup.dsv\n'}
+[3.488592] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/package.dsv\n'}
+[3.489160] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/ament_index/resource_index/packages/TR\n'}
+[3.489594] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/cmake/TRConfig.cmake\n'}
+[3.492876] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/cmake/TRConfig-version.cmake\n'}
+[3.494581] (TR) StdoutLine: {'line': b'-- Installing: /workspaces/workspace/install/TR/share/TR/package.xml\n'}
+[3.495413] (TR) CommandEnded: {'returncode': 0}
+[3.515700] (-) TimerEvent: {}
+[3.616499] (-) TimerEvent: {}
+[3.689625] (TR) JobEnded: {'identifier': 'TR', 'rc': 0}
+[3.693643] (-) EventReactorShutdown: {}
